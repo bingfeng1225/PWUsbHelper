@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/init"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClicked"
+        android:text="Init" />
+
+    <Button
+        android:id="@+id/enable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClicked"
+        android:text="Enable" />
+
+    <Button
+        android:id="@+id/discovery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClicked"
+        android:text="Discovery" />
+
+    <Button
+        android:id="@+id/disable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClicked"
+        android:text="Disable" />
+
+    <Button
+        android:id="@+id/permission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClicked"
+        android:text="Permission" />
+
+    <Button
+        android:id="@+id/release"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClicked"
+        android:text="Release" />
+</LinearLayout>
