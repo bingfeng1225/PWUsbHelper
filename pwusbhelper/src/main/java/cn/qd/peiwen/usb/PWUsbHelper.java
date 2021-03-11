@@ -107,6 +107,7 @@ public class PWUsbHelper {
 
     private void unregisterReceiver() {
         if (this.register) {
+            this.register = false;
             this.context.unregisterReceiver(this.receiver);
         }
     }
