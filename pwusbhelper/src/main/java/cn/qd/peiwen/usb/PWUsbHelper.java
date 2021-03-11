@@ -151,6 +151,7 @@ public class PWUsbHelper {
     private void processUsbTask(PWUsbTaskEntity task) {
         switch (task.getType()) {
             case USB_TASK_RELEASE:
+                this.unregisterReceiver();
                 this.destroyHandler();
                 break;
             case USB_TASK_ENABLE:
